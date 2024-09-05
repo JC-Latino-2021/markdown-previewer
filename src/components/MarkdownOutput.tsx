@@ -27,7 +27,7 @@ const MarkdownOutput = ({markdown}: MarkdownOutputProps) => {
     // return the OutputContainer with <ReactMarkdown>{markdown}</ReactMarkdown> as a child
     return (
       <OutputContainer>
-        <ReactMarkdown>{markdown}</ReactMarkdown>;
+        <ReactMarkdown>{markdown}</ReactMarkdown>
       </OutputContainer>
     );
   };
